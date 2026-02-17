@@ -13,7 +13,7 @@ export async function POST(request: Request) {
         { status: 400 },
       );
     }
-
+    //
     // MailerLite API configuration
     const MAILERLITE_API_KEY = process.env.MAILERLITE_API_KEY;
     const MAILERLITE_GROUP_ID = process.env.MAILERLITE_GROUP_ID; // Optional: specific group ID
